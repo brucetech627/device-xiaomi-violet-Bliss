@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2020 The LineageOS Project
-# 
+#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -25,7 +25,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay/packages/apps/Snap
+    $(LOCAL_PATH)/overlay/packages/apps/Snap \
     $(LOCAL_PATH)/overlay-bliss \
     $(LOCAL_PATH)/overlay-system \
     $(LOCAL_PATH)/overlay-lineage
